@@ -11,7 +11,7 @@ initializeIcons('https://my.cdn.com/path/to/icons/');
 
 class App extends React.Component {
   public render() {
-    const name = 'Tom';
+    const name = 'Wai-Ing Yu';
     const element = <h1>Hello, {name}</h1>;
 
     return (
@@ -21,14 +21,14 @@ class App extends React.Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">
-          To get started, edit <code>src/App.tsx</code> and save to reload.
+        office-ui-fabric-react button
         </p>
         <DefaultButton
-          text='See Button'
+          text='Tom Lee'
           primary={ true }
           href='#/components/button'
         />
-        <h1> {element} </h1>
+        <h3> {element} </h3>
       </div>
     );
   }
