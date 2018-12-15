@@ -11,7 +11,7 @@ initializeIcons('https://my.cdn.com/path/to/icons/');
 
 class App extends React.Component {
   public render() {
-    const name = 'Wai-Ing';
+    const name = 'Tom';
     const element = <h1>Hello, {name}</h1>;
 
     return (
